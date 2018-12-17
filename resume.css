@@ -1,0 +1,139 @@
+* {
+  max-width: 700px;
+  margin: auto;
+}
+
+
+/*body {
+    min-width: 500px;
+}*/
+
+div {
+  border-radius: 5px;
+}
+
+#header {
+  height: 50px;
+  width: 100%;
+  background-color: #ffcccc;
+  position: fixed;
+  z-index: 1;
+}
+
+#title {
+  margin-left: 3%;
+}
+
+#footer {
+  margin-left: -10%;
+  height: 50px;
+  width: 135%;
+  background-color: #ffcccc;
+  clear: both;
+  position: relative;
+}
+
+.stuff {
+  display: inline-block;
+  margin-top: 6px;
+  margin-left: 55px;
+  width: 75%;
+  height: 1000px;
+}
+
+p,
+li {
+  font-family: 'Cormorant Garamond';
+}
+
+.head {
+  font-size: 20px;
+}
+
+#name {
+  float:left;
+	margin-left: 20px;
+	padding-top: 15px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+}
+
+#email{
+    float:right;
+    margin-right: 20px;
+	padding-top: 15px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 430px) {
+  .left,
+  .right {
+    display: none;
+  }
+  .stuff {
+    width: 100%;
+    margin-left: 10px;
+  }
+}
+
+mark {
+  background-color: #F08080;
+  color: black;
+}
+
+header {
+  background-color: #FFDAB9 	;
+  padding: 15px;
+  width: 107%;
+  text-align: center;
+  font-size: 15px;
+  color: black;
+}
+
+part1 {
+  float: left;
+  width: 104%;
+  height: 310px; /* only for demonstration, should be removed */
+  background: #FFF8DC;
+  padding: 20px;
+  border-style: solid;
+}
+
+part2 {
+  float: left;
+  width: 104%;
+  height: 200px; /* only for demonstration, should be removed */
+  background: #FFF8DC;
+  padding: 20px;
+  border-style: solid;
+}
+
+part3 {
+  float: left;
+  width: 104%;
+  height: 180px; /* only for demonstration, should be removed */
+  background: #FFF8DC;
+  padding: 20px;
+  border-style: solid;
+}
+
+part4 {
+  float: left;
+  width: 104%;
+  height: 90px; /* only for demonstration, should be removed */
+  background: #FFF8DC;
+  padding: 20px;
+  border-style: solid;
+}
+/* Style the list inside the menu */
+
+.checked {
+  color: orange;
+}
